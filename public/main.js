@@ -8,7 +8,7 @@ function retrieveRepos() {
         data.forEach(element => {
             container.insertAdjacentHTML("beforeend", `
             <div class="post">
-                <img class="postImage" src="https://github.com/${user}/${element.name}/blob/master/foto.jpg?raw=true"" />
+                <img class="postImage" src="https://raw.githubusercontent.com/BrunaFPereira/JsArrays/master/foto.jpg?raw=true"" />
                 <a class="postLink" href="${element.html_url}">${element.full_name}</a>
             </div>
             `)
